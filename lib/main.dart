@@ -49,6 +49,16 @@ class MainApp extends StatelessWidget {
         fontWeight: FontWeight.bold,
       ),
     ),
+    
+  ],
+),
+Row(
+  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+  crossAxisAlignment: CrossAxisAlignment.center,
+  children: [
+    Icon(Icons.home, color: Colors.blue, size: 40),
+    Icon(Icons.star, color: Colors.amber, size: 40),
+    Icon(Icons.settings, color: Colors.grey, size: 40),
   ],
 ),
           ],
