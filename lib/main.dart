@@ -30,7 +30,7 @@ class MainApp extends StatelessWidget {
 ),
             Text('Voici mon Container stylisé.'),
             Stack(
-  alignment: Alignment.center,
+  alignment: Alignment.topRight,
   children: [
     Container(
       width: 200,
