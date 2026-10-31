@@ -13,6 +13,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text('Hello World!'),
               Text('Bienvenue dans mon application Flutter !'),
@@ -65,6 +66,7 @@ Row(
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
+      
                 children: [
                   Text(
                     'Titre principal',
