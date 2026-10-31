@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
               Text('Bienvenue dans mon application Flutter !'),
               Container(
   margin: EdgeInsets.all(24),
-  padding: EdgeInsets.all(16),
+  padding: EdgeInsets.all(20),
   decoration: BoxDecoration(
     color: Colors.purple,
     borderRadius: BorderRadius.circular(24),
