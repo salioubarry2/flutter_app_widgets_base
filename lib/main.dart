@@ -68,10 +68,13 @@ Row(
                 children: [
                   Text(
                     'Titre principal',
-                    style: TextStyle(fontSize: 22),
+                    style: TextStyle(fontSize: 28),
                   ),
                   SizedBox(height: 20),
-                  Text('Sous-titre ou description'),
+                  Text(
+                        'Sous-titre ou description',
+                       style: TextStyle(fontSize: 18),
+                         ),
                   Icon(
                     Icons.thumb_up,
                     color: Colors.green,
