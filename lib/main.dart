@@ -65,7 +65,7 @@ Row(
 ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
       
                 children: [
                   Text(
